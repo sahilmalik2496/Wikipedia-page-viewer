@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(8, 109, 122);
+    min-height: 100%;
+}
+img{
+    width: 20px;
+    height: 20px;
+    margin-left: 300px;
+}
+.wiki{
+ margin-top: 20px;
+ font-size: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #303133;
+}
+.btn{
+    opacity: 0.5;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 180px;
+}
+a:hover{
+    color: black;   
+}
+.container2{
+    overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin: 100px 200px 000px 200px;
+  }
+.container2 input#search{
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 20pt;
+    border-radius: 10px;
+    float: left;
+    color: white;
+    padding-left: 45px; 
+    
+  }
+  .container2 .icon{
+  
+    border: none;
+    background: #232833;
+    height: 50px;
+    width: 50px;
+    color: #4f5b66;
+    opacity: 0;
+    font-size: 10pt;
+    
+  transition: all .55s ease;
+  }
+  .container2:hover button.icon, .container2:active button.icon, .container2:focus button.icon{
+    outline: none;
+    opacity: 1;
+    margin-left: -50px;
+    border-radius: 10px;
+    background: white;
+  }
+  
+ 
+  .container2:hover button.icon:hover{
+    background-color:#232833;
+    color: white;
+  }
+
+  .output{
+      margin-top: 100px;
+  }
+  .output li{
+      background-color: white;
+      opacity: 0.7;
+      padding-left: 25px;
+      list-style: none;
+      font-weight: bold;
+  }
+  .output li:hover{
+      border-left: 5px solid rgb(0, 0, 0);
+      margin-left: -5px;
+  }
+  .output li:last-child{
+      margin-bottom: 70px;
+  }
+  a{
+      font-size: 1.5em;
+      color: black;
+      margin-bottom: 20px;
+  }
+  .footnote{
+    background-color: white;
+    text-align: center;
+   position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    color: black;
+    padding: 0.3em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
